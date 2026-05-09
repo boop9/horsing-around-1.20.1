@@ -3,13 +3,13 @@
 	"id": "horsing-around",
 	"version": "${version}",
 	"name": "horsing around",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is horse mod!!!!!",
 	"authors": [
-		"Me!"
+		"ariaanabatman","botgerman"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/boop9/horsing-around-1.20.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/horsing-around/icon.png",
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.boop9.horsingaround.HorsingAroundDataGenerator"
-		]
+		],
+        "client": [
+          "net.boop9.horsingaround.HorsingAroundClient"
+        ]
 	},
 	"mixins": [
 		"horsing-around.mixins.json"
